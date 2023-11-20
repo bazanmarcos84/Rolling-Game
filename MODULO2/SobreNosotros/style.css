@@ -1,0 +1,24 @@
+
+.cardsobre-nosotros:hover {
+  transform: scale(1.2);
+  /* Escala la tarjeta al 110% del tamaño original */
+  transition: transform 0.8s;
+  box-shadow: 0 0 10px rgb(30, 193, 190);
+}
+
+.fondo-sobre-nosotros {
+  background-color: rgb(67,67,67);
+  object-fit: cover;
+  width: 100%;
+}
+
+.head-sobre-nosotros {
+  margin-top: 100px;
+  background-color: rgb(41,241,199);
+}
+
+.Tarjeta {
+  color: rgb(67,67,67);
+}
+
+
