@@ -1,7 +1,7 @@
 
 
 .fondo-contacto {
-  background-color: rgb(67, 67, 67);
+  background: linear-gradient(rgb(3,40,79),rgb(0,0,0));
   object-fit: cover;
   width: 100%;
 }
