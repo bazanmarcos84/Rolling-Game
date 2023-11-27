@@ -1,0 +1,121 @@
+:root{
+    --max: 18rem
+}
+
+body{
+    background: linear-gradient(90deg, rgb(3,40,79) 0%, rgb(0,0,0)) 100%;
+    color: rgb(30, 193, 190);
+    margin: 0;
+    padding: 0;
+}
+    
+.colores a{
+    color: rgb(30, 193, 190) !important;
+
+}
+
+.imgcar1 {
+    display: block;
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: non-repeat;
+    background-size: cover;
+    opacity: 75%;
+  }
+
+  .imgcar2 {
+    display: block;
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: non-repeat;
+    background-size: cover;
+    opacity: 75%;
+  }
+
+  .imgcar3 {
+    display: block;
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: non-repeat;
+    background-size: cover;
+    opacity: 75%;
+  }
+
+ 
+
+
+
+
+
+.highlight-section {
+    display: flex;
+    align-items: center;
+    color: rgb(30, 193, 190);
+    max-width: 800px;
+    margin: 20px auto;
+}
+.highlight-section img {
+    width: 50%;
+    height: auto;
+}
+
+.highlight-section .content {
+    flex: 1;
+    padding: 20px;
+}
+
+.highlight-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.highlight-section p {
+    font-size: 1.2em;
+    margin: 0;
+}   
+
+.btnDestacado{
+    color:black;
+    background-color:  rgb(30, 193, 190);
+    border-color: white;
+    border-radius: 15%;
+}
+
+.card {
+    width: var(--max)
+    }
+
+.card-img-top {
+    width: 100%;
+    max-width: var(--max);
+    height: calc(var(--max));
+    object-fit: cover;
+    } 
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+  
+  h2 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+  }
+ 
+  .colores h5{
+    color: rgb(30, 193, 190) !important;
+  }
+
+.card{
+    background-color: black;
+    border-color: white;
+}
+  
+ 
