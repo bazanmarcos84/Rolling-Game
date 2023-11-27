@@ -1,0 +1,12 @@
+body {
+  background: linear-gradient(rgb(3, 40, 79), rgb(0, 0, 0));
+  color: rgb(30, 193, 190);
+}
+
+#ModalProducto {
+  color: black;
+}
+
+#ModalJuego {
+  color: black;
+}
