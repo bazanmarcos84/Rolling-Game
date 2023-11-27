@@ -1,0 +1,36 @@
+body{
+    background: linear-gradient(rgb(3,40,79),rgb(0,0,0));
+}
+.loguito {
+    height: 5%;
+    width:5%;
+}
+.imagenprincipal {
+    height:40% ;
+    width: 70%;
+}
+
+.tarjetajuego {
+    border:3px;
+    border-style:double;
+    color: rgb(31, 170, 140);
+}
+
+.card {
+    margin:5%
+}
+
+.tituloconlogo {
+    background: linear-gradient(rgb(3,40,79),rgb(0,0,0));
+    font-weight: 800;
+    font-style: oblique;
+    color: rgb(30, 193, 190);
+}
+.card:hover{
+    transform: scale(1.2);
+    transition: transform 0.8s;
+    box-shadow: 0 0 10px rgb(30, 193, 190);
+  }
+.row {
+    justify-content: center;
+}
