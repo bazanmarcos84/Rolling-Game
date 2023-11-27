@@ -29,13 +29,17 @@ function validarlogin(e){
         
     if (existeEmail !== undefined){
         if(existeEmail.passw.trim() === passw.trim()){
-            mostrarMensajeExitoso("Logueado");
+            return window.location.href="http://127.0.0.1:5500/proyecto/home.html";
         }else {
             mostrarError("Correo o contraseña incorrecto!");
         }
     }else {
         mostrarError("Correo o contraseña incorrecto!");
     }
+    if(existeEmail === mail.admin@admin.com){
+         if(mail.admin@admin.com = passw.admin)
+        return window.location.href= "http://127.0.0.1:5500/proyecto/pages/admin.html"
+     }
     
     validarUsuario.reset()
 }

@@ -1,3 +1,17 @@
-body {
+body{
+
+    background: linear-gradient(90deg, rgb(3,40,79) 0%, rgb(0,0,0)) 100%;
+
     color: rgb(30, 193, 190);
+
+    margin: 0;
+
+    padding: 0;
+}
+
+.tituloregistro{
+    display: flex;
+    margin-top: 75px;
+    justify-content:center;
+    
 }
